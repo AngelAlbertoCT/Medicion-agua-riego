@@ -5,9 +5,9 @@
 #include <ArduinoJson.h>
 
 //Configuracion wifi servidor
-const char *ssid = "INFINITUM3BBE";
-const char *password = "gFJgeQZ54Y";
-String servidor = "http://funcionayaestoyharto.000webhostapp.com/index.php/jaime/input";
+const char *ssid = "SSID";
+const char *password = "PSWD";
+String servidor = "http://server/name";
 WiFiClient client;
 
 //Definicion de pines
